@@ -68,15 +68,21 @@ section + section {
   padding: 0 16px;
   float:left;
 }
+section + section h2 {
+  padding:10px;
+  margin:0 -16px;
+  color:white;
+  background-color: lightgrey;  
+}
 /* Article elements only appear in main section */
 article {
   clear: both;
 }
-article h2 {
-  padding:10px;
-  margin:0 -16px 24px;
-  color:white;
-  background-color: lightgrey;
+article h3 {
+  padding-bottom:10px;
+  margin:24px 0;
+  color:grey;
+  border-bottom: 2px dashed darkgrey;
 }
 article p {
   margin-bottom: 20px;
