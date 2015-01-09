@@ -13,8 +13,8 @@ address, article, aside, canvas, details, figcaption, figure, footer, header, hg
 
 /* general styles */
 body {
-  font-style: Georgia, sans-serif;
-  font-size: 1.1em;
+  font-family: Georgia, sans-serif;
+  font-size: 96%;
 }
 ul {
   list-style-type: none;
