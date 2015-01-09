@@ -1,0 +1,110 @@
+/*limited reset*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align:baseline;
+}
+
+/*html5 display rule*/
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+  display: block;
+}
+
+/* general styles */
+body {
+  font-style: Georgia, sans-serif;
+  font-size: 1.1em;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  border: 1px solid red;
+}
+/* header and main nav styles */
+header {
+  position: fixed;
+  background-color: lightgrey;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+}
+header ul {
+  background-color: crimson;
+  text-align: center;
+}
+header li {
+  padding: 10px;
+  display: inline-block;
+}
+header a:link, 
+header a:visited,
+header a:hover
+header a:active {
+  color: white;
+}
+
+/* content wrapper */
+#wrapper {
+  overflow:auto;
+  width: 960px;
+  margin: 120px auto 0;
+  padding: 10px 20px;
+}
+
+/* left nav column */
+section:first-child {
+  padding: 10px;
+  float:left;
+  width: 186px;
+}
+
+/* The main section */
+section + section {
+  width: 520px;
+  border: 1px solid darkgrey;
+  padding: 0 16px;
+  float:left;
+}
+/* Article elements only appear in main section */
+article {
+  clear: both;
+}
+article h2 {
+  padding:10px;
+  margin:0 -16px 24px;
+  color:white;
+  background-color: lightgrey;
+}
+article p {
+  margin-bottom: 20px;
+}
+/* Images in first paragraph of article float left, otherwise right */
+article p:first-of-type img {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+article img {
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
+/* right column */
+aside {
+  padding: 10px;
+  margin-left: 20px;
+  width: 160px;
+  float:right;
+  background-color: lightblue;
+}
+aside h2, aside li {
+  margin-bottom: 24px;
+}
+
+footer {
+  margin-top: 24px;
+  padding: 10px;
+  text-align: center;
+}
